@@ -5,9 +5,8 @@
    
 
 
-Warning
-
-This feature is in a beta state. Please file an issue if you find anything wrong.
+.. warning:: This feature is in a beta state.
+             Please file an `issue`_ if you find anything wrong.
 
 
 Welcome to Read the Docs Template's documentation!
