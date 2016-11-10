@@ -5,8 +5,7 @@
    
 
 
-.. warning:: This feature is in a beta state.
-             Please file an `issue`_ if you find anything wrong.
+.. warning:: The **primary audience** for this documentation are Staff Members of INVITE Communications.  You are *welcome* to view the materials found here.  *We try to be transperent in how we do business.**
 
 
 Welcome to Read the Docs Template's documentation!
