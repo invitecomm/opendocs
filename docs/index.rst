@@ -12,7 +12,6 @@
     *We try to be transperent in how we do business.*
     
     *But you may find some pieces of the puzzle missing.*
-    
     Don't expect to find **private data** here.
 
 
