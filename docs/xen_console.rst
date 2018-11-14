@@ -4,7 +4,7 @@ First Boot
 
 
 .. image:: images/mcat/xen_console_001.png
-    :scale: 50 %
+    :scale: 25 %
     
 .. image:: images/mcat/xen_console_002.png
     :scale: 50 %
