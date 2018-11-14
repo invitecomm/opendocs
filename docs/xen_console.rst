@@ -212,3 +212,7 @@ The first boot process with *prompt* for ``Authentication Configuration`` settin
     :scale: 50 %
 
 * Done
+
+.. attention::
+
+    You can now connect to the system *via* ``ssh``.
