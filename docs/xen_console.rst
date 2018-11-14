@@ -2,7 +2,13 @@
 First Boot
 ##########
 
+===============  
+Virtual Console
+===============
 
+#. Find the *newly created* virtual machine in XenCenter ``Resource Pane``.
+#. Select the *newly created* virtual machine to see the ``Properties tabs``. 
+#. Select the ``Console`` tab to view Control Domain (``Dom0``) console.
 
 .. image:: images/mcat/xen_console_001.png
     :scale: 25 %
