@@ -51,7 +51,7 @@ Creating MCAT Virtual Server
 .. image:: images/mcat/xenserver_009.png
     :scale: 50 %
 
-* ストレージ CloudByte 次へ
+* ストレージ CloudByte ``CB`` 次へ
 
 .. image:: images/mcat/xenserver_010.png
     :scale: 50 %
