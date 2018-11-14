@@ -6,9 +6,10 @@ First Boot
 
 .. image:: images/mcat/xen_console_001.png
     :scale: 25 %
-    
+
+=============    
 Root Password
--------------
+=============
 
 When the newly created VM is booted for the first time, you'll be prompted to enter change the ``root`` password.  
 
@@ -24,8 +25,9 @@ When the newly created VM is booted for the first time, you'll be prompted to en
 .. image:: images/mcat/xen_console_004.png
     :scale: 50 %
 
+====================
 Device Configuration
---------------------
+====================
 
 ====== =========== ============= === ==================
 Subnet Network     Network Mask  Bit Purpose
@@ -37,7 +39,7 @@ Client d.d.d.d     d.d.d.d       \   Client Connections
 
 IP addressing follows a common host number convention.  Where all the IP addresses **end** with the same digit.  ``___.___.___.254``  Where a client *specified* subnet allows.  The host number **must** be used for all the internal subnets used on the MCAT platform.::
 
-    # Common Host Number = 254
+    # Default Host Number = 254
     OAM&P = 172.24.15.254
     MCAT = 172.17.70.254
     Client = 192.168.0.254
@@ -52,6 +54,9 @@ IP addressing follows a common host number convention.  Where all the IP address
 .. image:: images/mcat/xen_console_005.png
     :scale: 50 %
     
+OAM&P ``eth0``
+--------------
+    
 .. image:: images/mcat/xen_console_006.png
     :scale: 50 %
     
@@ -61,12 +66,18 @@ IP addressing follows a common host number convention.  Where all the IP address
 .. image:: images/mcat/xen_console_008.png
     :scale: 50 %
     
+Change the ``Static IP`` to use the correct host number.
+    
 .. image:: images/mcat/xen_console_009.png
     :scale: 50 %
 
 .. image:: images/mcat/xen_console_010.png
     :scale: 50 %
     
+    
+MCAT ``eth1``
+--------------
+
 .. image:: images/mcat/xen_console_011.png
     :scale: 50 %
     
@@ -76,32 +87,64 @@ IP addressing follows a common host number convention.  Where all the IP address
 .. image:: images/mcat/xen_console_013.png
     :scale: 50 %
     
+Change the ``Static IP`` to use the correct host number.
+
+    
 .. image:: images/mcat/xen_console_014.png
     :scale: 50 %
     
 .. image:: images/mcat/xen_console_015.png
     :scale: 50 %
     
+Adding Network Interfaces
+-------------------------
+
+For *each* additional network interface needed to support the client, perform the following steps.
+    
+* Select ``New Device``.
+
 .. image:: images/mcat/xen_console_016.png
     :scale: 50 %
-    
+
+* Choose ``Ethernet`` as the device type.
+
 .. image:: images/mcat/xen_console_017.png
     :scale: 50 %
+    
+* Select ``Add``.
     
 .. image:: images/mcat/xen_console_018.png
     :scale: 50 %
     
+* Enter the ``Network Configuration`` details.
+    
 .. image:: images/mcat/xen_console_019.png
     :scale: 50 %
+    
+The ``Name`` and ``Device`` **should** increment from the last configured interface.  ``eth2``, ``eth3``, ``eth4``, etc...
+
+.. warning::
+    **Only** the OAM&P network (``eth0``) *should* have the ``Default gateway IP`` **and** ``DNS server`` settings.  Leave these settings **empty** for **other** network interfaces.
 
 .. image:: images/mcat/xen_console_020.png
     :scale: 50 %
     
+* Select ``Save`` once all the devices have been configured.
+    
 .. image:: images/mcat/xen_console_021.png
     :scale: 50 %
     
+=================
 DNS configuration
--------------------------
+=================
+
+The hostname *may* be the long INVITE CLLI styled ID or the short version.
+::
+
+    invttmtjwx03.tmtj.invite-comm.jp
+    -or-
+    wx03.tmtj.invite-comm.jp
+
 
 .. hint:: 
     The hostname can be set at this stage in the process -or- by directly editing ``/etc/sysconfig/network``.  Changing the hostname directly **requires** the VM to be rebooted *again*.
@@ -114,6 +157,16 @@ DNS configuration
 
 .. image:: images/mcat/xen_console_022.png
     :scale: 50 %  
+
+===================  ======================================
+Field                Setting
+===================  ======================================
+``Hostname``         *hostname* ``.tmtj.invite-comm.jp``
+``Primary DNS``      ``172.24.15.51``
+``Secondary DNS``    ``172.24.15.52``
+``Tertiary DNS``     ``8.8.8.8``
+``DNS search path``  ``tmtj.invite-comm.jp invite-comm.jp``
+===================  ======================================
 
 .. image:: images/mcat/xen_console_023.png
     :scale: 50 %
