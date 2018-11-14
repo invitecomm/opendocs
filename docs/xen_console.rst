@@ -7,6 +7,14 @@ First Boot
 .. image:: images/mcat/xen_console_001.png
     :scale: 25 %
     
+Root Password
+-------------
+
+When the newly created VM is booted for the first time, you'll be prompted to enter change the ``root`` password.  
+
+.. important:: 
+    Use the standard INVITE password for the root account.
+    
 .. image:: images/mcat/xen_console_002.png
     :scale: 50 %
     
