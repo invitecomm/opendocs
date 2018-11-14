@@ -36,7 +36,10 @@ Client d.d.d.d     d.d.d.d       \   Client Connections
 ====== =========== ============= === ==================
 
 .. warning::
-    **Only** the OAM&P network *should* have the ``Default gateway IP`` **and** ``DNS server`` settings.  Leave empty for all other network interfaces.
+    **Only** the OAM&P network (``eth0``) *should* have the ``Default gateway IP`` **and** ``DNS server`` settings.  Leave these settings **empty** for **other** network interfaces.
+    
+.. danger::
+    **Some** carriers *require* the network interface is the **primary** connection.  This **requires** a *different* connectivity model.
 
 .. image:: images/mcat/xen_console_005.png
     :scale: 50 %
