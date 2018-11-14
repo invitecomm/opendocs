@@ -24,7 +24,10 @@ Contents:
    :maxdepth: 2
    :glob:
 
+   xen/create.rst
+   xen/console.rst
    *
+   
 
 
 

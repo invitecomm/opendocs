@@ -10,7 +10,7 @@ Virtual Console
 #. Select the *newly created* virtual machine to see the ``Properties tabs``. 
 #. Select the ``Console`` tab to view Control Domain (``Dom0``) console.
 
-.. image:: images/mcat/xen_console_001.png
+.. image:: ../images/mcat/xen_console_001.png
     :scale: 25 %
 
 =============    
@@ -24,13 +24,13 @@ When the newly created VM is booted for the first time, you'll be prompted to en
 .. important:: 
     Use the standard INVITE password for the root account.
     
-.. image:: images/mcat/xen_console_002.png
+.. image:: ../images/mcat/xen_console_002.png
     :scale: 50 %
     
-.. image:: images/mcat/xen_console_003.png
+.. image:: ../images/mcat/xen_console_003.png
     :scale: 50 %
     
-.. image:: images/mcat/xen_console_004.png
+.. image:: ../images/mcat/xen_console_004.png
     :scale: 50 %
 
 ====================
@@ -59,49 +59,49 @@ IP addressing follows a common host number convention.  Where all the IP address
 .. important::
     *Some* carriers *require* the network interface is the **primary** connection.  This **requires** a *different* connectivity model to be used.
 
-.. image:: images/mcat/xen_console_005.png
+.. image:: ../images/mcat/xen_console_005.png
     :scale: 50 %
     
 OAM&P ``eth0``
 --------------
     
-.. image:: images/mcat/xen_console_006.png
+.. image:: ../images/mcat/xen_console_006.png
     :scale: 50 %
     
-.. image:: images/mcat/xen_console_007.png
+.. image:: ../images/mcat/xen_console_007.png
     :scale: 50 %
     
-.. image:: images/mcat/xen_console_008.png
+.. image:: ../images/mcat/xen_console_008.png
     :scale: 50 %
     
 Change the ``Static IP`` to use the correct host number.
     
-.. image:: images/mcat/xen_console_009.png
+.. image:: ../images/mcat/xen_console_009.png
     :scale: 50 %
 
-.. image:: images/mcat/xen_console_010.png
+.. image:: ../images/mcat/xen_console_010.png
     :scale: 50 %
     
     
 MCAT ``eth1``
 --------------
 
-.. image:: images/mcat/xen_console_011.png
+.. image:: ../images/mcat/xen_console_011.png
     :scale: 50 %
     
-.. image:: images/mcat/xen_console_012.png
+.. image:: ../images/mcat/xen_console_012.png
     :scale: 50 %
     
-.. image:: images/mcat/xen_console_013.png
+.. image:: ../images/mcat/xen_console_013.png
     :scale: 50 %
     
 Change the ``Static IP`` to use the correct host number.
 
     
-.. image:: images/mcat/xen_console_014.png
+.. image:: ../images/mcat/xen_console_014.png
     :scale: 50 %
     
-.. image:: images/mcat/xen_console_015.png
+.. image:: ../images/mcat/xen_console_015.png
     :scale: 50 %
     
 Adding Network Interfaces
@@ -111,22 +111,22 @@ For *each* additional network interface needed to support the client, perform th
     
 * Select ``New Device``.
 
-.. image:: images/mcat/xen_console_016.png
+.. image:: ../images/mcat/xen_console_016.png
     :scale: 50 %
 
 * Choose ``Ethernet`` as the device type.
 
-.. image:: images/mcat/xen_console_017.png
+.. image:: ../images/mcat/xen_console_017.png
     :scale: 50 %
     
 * Select ``Add``.
     
-.. image:: images/mcat/xen_console_018.png
+.. image:: ../images/mcat/xen_console_018.png
     :scale: 50 %
     
 * Enter the ``Network Configuration`` details.
     
-.. image:: images/mcat/xen_console_019.png
+.. image:: ../images/mcat/xen_console_019.png
     :scale: 50 %
     
 The ``Name`` and ``Device`` **should** increment from the last configured interface.  ``eth2``, ``eth3``, ``eth4``, etc...
@@ -134,12 +134,12 @@ The ``Name`` and ``Device`` **should** increment from the last configured interf
 .. warning::
     **Only** the OAM&P network (``eth0``) *should* have the ``Default gateway IP`` **and** ``DNS server`` settings.  Leave these settings **empty** for **other** network interfaces.
 
-.. image:: images/mcat/xen_console_020.png
+.. image:: ../images/mcat/xen_console_020.png
     :scale: 50 %
     
 * Select ``Save`` once all the devices have been configured.
     
-.. image:: images/mcat/xen_console_021.png
+.. image:: ../images/mcat/xen_console_021.png
     :scale: 50 %
     
 =================
@@ -163,7 +163,7 @@ The hostname *may* be the long INVITE CLLI styled ID or the short version.
     NETWORKING=yes
     HOSTNAME=wx03.tmtj.invite-comm.jp  
 
-.. image:: images/mcat/xen_console_022.png
+.. image:: ../images/mcat/xen_console_022.png
     :scale: 50 %  
 
 * Enter the ``DNS Configuration`` details.
@@ -179,23 +179,23 @@ Field                Setting
 ===================  ======================================
 
 
-.. image:: images/mcat/xen_console_023.png
+.. image:: ../images/mcat/xen_console_023.png
     :scale: 50 %
     
-.. image:: images/mcat/xen_console_024.png
+.. image:: ../images/mcat/xen_console_024.png
     :scale: 50 %
 
 * Select ``OK``
 
-.. image:: images/mcat/xen_console_025.png
+.. image:: ../images/mcat/xen_console_025.png
     :scale: 50 %
 
-.. image:: images/mcat/xen_console_026.png
+.. image:: ../images/mcat/xen_console_026.png
     :scale: 50 %
     
 * Select ``Save&Quit``
     
-.. image:: images/mcat/xen_console_027.png
+.. image:: ../images/mcat/xen_console_027.png
     :scale: 50 %
 
 ============================
@@ -204,19 +204,19 @@ Authentication Configuration
 
 The first boot process with *prompt* for ``Authentication Configuration`` settings.  *This may be skipped.*
 
-.. image:: images/mcat/xen_console_028.png
+.. image:: ../images/mcat/xen_console_028.png
     :scale: 50 %
     
 * Select ``Next`` and the system **will reboot**
     
-.. image:: images/mcat/xen_console_029.png
+.. image:: ../images/mcat/xen_console_029.png
     :scale: 50 %
 
 
-.. image:: images/mcat/xen_console_030.png
+.. image:: ../images/mcat/xen_console_030.png
     :scale: 50 %
     
-.. image:: images/mcat/xen_console_031.png
+.. image:: ../images/mcat/xen_console_031.png
     :scale: 50 %
 
 * Done
