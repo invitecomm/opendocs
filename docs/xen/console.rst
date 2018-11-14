@@ -17,7 +17,7 @@ Virtual Console
 Root Password
 =============
 
-When the newly created VM is booted for the first time, you'll be prompted to enter change the ``root`` password.
+When the newly created VM is booted for the first time, you'll be prompted to change the ``root`` password.
 
 * 該当のサーバをつかまえて、コンソールをみる
 
@@ -224,3 +224,6 @@ The first boot process with *prompt* for ``Authentication Configuration`` settin
 .. attention::
 
     You can now connect to the system *via* ``ssh``.
+    
+.. tip::
+    You *may* run the ``sys-unconfig`` command at this point.  It will shut down the virtual machine *returning* to the **First Boot** condition.  This is *helpful* to create a clone of the virtual machine in the XenConsole with of the interfaces and networking has been configured.  Follow the above steps for the **clone** and leave the setting untouched for the *original*.

@@ -82,3 +82,6 @@ Creating MCAT Virtual Server
 * 完了 作成
 
 * サーチして、右クリック VMのコピー 名前変更 コピーモードを完全コピーを選択しクラウドバイトに コピー
+
+.. tip::
+    You *may* choose to create a **clone** at this point -or- after configuring the network interfaces in the next step.

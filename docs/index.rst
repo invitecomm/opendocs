@@ -15,7 +15,7 @@
     Don't expect to find **private data** here.
 
 
-Open Documentation (Where to Start)
+Documentation
 ==================================================
 
 Contents:
