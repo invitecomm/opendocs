@@ -3,6 +3,7 @@ First Boot
 ##########
 
 
+
 .. image:: images/mcat/xen_console_001.png
     :scale: 25 %
     
@@ -66,8 +67,14 @@ First Boot
 .. image:: images/mcat/xen_console_021.png
     :scale: 50 %
     
+Hostname and DNS Settings
+-------------------------
+
 .. image:: images/mcat/xen_console_022.png
     :scale: 50 %
+    
+.. hint:: 
+    The hostname can be set at this stage in the process -or- by editing the file.
     
 .. image:: images/mcat/xen_console_023.png
     :scale: 50 %
