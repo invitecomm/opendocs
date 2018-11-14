@@ -226,4 +226,4 @@ The first boot process with *prompt* for ``Authentication Configuration`` settin
     You can now connect to the system *via* ``ssh``.
     
 .. tip::
-    You *may* run the ``sys-unconfig`` command at this point.  It will shut down the virtual machine *returning* to the **First Boot** condition.  This is *helpful* to create a clone of the virtual machine in the XenConsole with of the interfaces and networking has been configured.  Follow the above steps for the **clone** and leave the setting untouched for the *original*.
+    You *may* run the ``sys-unconfig`` command at this point.  It will shut down the virtual machine *returning* to the **First Boot** condition.  This is *helpful* to create a clone of the virtual machine in the XenConsole with all the interfaces and networking configured.  Follow the above steps for the **clone** and leave the setting untouched for the *original*.
