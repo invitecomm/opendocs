@@ -71,7 +71,7 @@ DNS configuration
 -------------------------
 
 .. hint:: 
-    The hostname can be set at this stage in the process -or- by directly editing ``/etc/sysconfig/network``.  *Changing the hostname **requires** the VM to be rebooted.*
+    The hostname can be set at this stage in the process -or- by directly editing ``/etc/sysconfig/network``.  Changing the hostname directly **requires** the VM to be rebooted *again*.
 
 ::
 
