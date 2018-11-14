@@ -23,7 +23,21 @@ When the newly created VM is booted for the first time, you'll be prompted to en
     
 .. image:: images/mcat/xen_console_004.png
     :scale: 50 %
-    
+
+Device Configuration
+--------------------
+
+====== =========== ============= === ==================
+Subnet Network     Network Mask  Bit Purpose
+====== =========== ============= === ==================
+OAM&P  172.24.12.0 255.255.252.0 /22 Management Network
+MCAT   172.17.70.0 255.255.255.0 /24 Core MCAT Network
+Client d.d.d.d     d.d.d.d       \   Client Connections
+====== =========== ============= === ==================
+
+.. warning::
+    **Only** the OAM&P network *should* have the ``Default gateway IP`` **and** ``DNS server`` settings.  Leave empty for all other network interfaces.
+
 .. image:: images/mcat/xen_console_005.png
     :scale: 50 %
     
