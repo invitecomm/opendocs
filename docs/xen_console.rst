@@ -158,39 +158,57 @@ The hostname *may* be the long INVITE CLLI styled ID or the short version.
 .. image:: images/mcat/xen_console_022.png
     :scale: 50 %  
 
+* Enter the ``DNS Configuration`` details.
+
 ===================  ======================================
 Field                Setting
 ===================  ======================================
 ``Hostname``         *hostname* ``.tmtj.invite-comm.jp``
-``Primary DNS``      ``172.24.15.51``
-``Secondary DNS``    ``172.24.15.52``
-``Tertiary DNS``     ``8.8.8.8``
+``Primary DNS``      ``172.24.15.51`` *internal*
+``Secondary DNS``    ``172.24.15.52`` *internal*
+``Tertiary DNS``     ``8.8.8.8`` *external for backup*
 ``DNS search path``  ``tmtj.invite-comm.jp invite-comm.jp``
 ===================  ======================================
+
 
 .. image:: images/mcat/xen_console_023.png
     :scale: 50 %
     
 .. image:: images/mcat/xen_console_024.png
     :scale: 50 %
-    
+
+* Select ``OK``
+
 .. image:: images/mcat/xen_console_025.png
     :scale: 50 %
 
 .. image:: images/mcat/xen_console_026.png
     :scale: 50 %
     
+* Select ``Save&Quit``
+    
 .. image:: images/mcat/xen_console_027.png
     :scale: 50 %
-    
+
+============================
+Authentication Configuration
+============================
+
+The first boot process with *prompt* for ``Authentication Configuration`` settings.  *This may be skipped.*
+
 .. image:: images/mcat/xen_console_028.png
     :scale: 50 %
     
+* Select ``Next`` and the system **will reboot**
+    
 .. image:: images/mcat/xen_console_029.png
     :scale: 50 %
+
 
 .. image:: images/mcat/xen_console_030.png
     :scale: 50 %
     
 .. image:: images/mcat/xen_console_031.png
     :scale: 50 %
+
+* Done
