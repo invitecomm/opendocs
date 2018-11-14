@@ -26,6 +26,9 @@ Right Click and Select **New VM wizard...**
 .. image:: images/mcat/xenserver_005.png
     :scale: 50 %
     
+Set the **Name** of the MCAT virtual machine.
+---------------------------------------------
+    
 .. image:: images/mcat/xenserver_006.png
     :scale: 50 %
     
@@ -43,6 +46,9 @@ Right Click and Select **New VM wizard...**
     
 .. image:: images/mcat/xenserver_011.png
     :scale: 50 %
+    
+Add any network interfaces necessary.
+-------------------------------------
 
 .. image:: images/mcat/xenserver_012.png
     :scale: 50 %
