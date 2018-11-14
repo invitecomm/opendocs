@@ -1,9 +1,18 @@
 #########
-xencenter
+XenCenter
 #########
+
+Creating a new MCAT virtual machine.
+====================================
+
+Find the *latest* MCAT template.
+--------------------------------
 
 .. image:: images/mcat/xenserver_001.png
     :scale: 50 %
+    
+Right Click and Select **New VM wizard...**
+--------------------------------------------
 
 .. image:: images/mcat/xenserver_002.png
     :scale: 50 %
