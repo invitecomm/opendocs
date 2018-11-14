@@ -26,15 +26,3 @@ Contents:
 
    xen/create.rst
    xen/console.rst
-   *
-   
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
