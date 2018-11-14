@@ -35,11 +35,20 @@ MCAT   172.17.70.0 255.255.255.0 /24 Core MCAT Network
 Client d.d.d.d     d.d.d.d       \   Client Connections
 ====== =========== ============= === ==================
 
+IP addressing follows a common host number convention.  Where all the IP addresses **end** with the same digit.  When the client *specified* subnet allows. 
+
+The host number **must** be used for all the internal subnets used on the MCAT platform.::
+
+    # Common Host Number = 254
+    OAM&P = 172.24.15.254
+    MCAT = 172.17.70.254
+    Client = 192.168.0.254
+
 .. warning::
     **Only** the OAM&P network (``eth0``) *should* have the ``Default gateway IP`` **and** ``DNS server`` settings.  Leave these settings **empty** for **other** network interfaces.
     
-.. danger::
-    **Some** carriers *require* the network interface is the **primary** connection.  This **requires** a *different* connectivity model.
+.. important::
+    *Some* carriers *require* the network interface is the **primary** connection.  This **requires** a *different* connectivity model to be used.
 
 .. image:: images/mcat/xen_console_005.png
     :scale: 50 %
