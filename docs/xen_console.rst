@@ -67,15 +67,21 @@ First Boot
 .. image:: images/mcat/xen_console_021.png
     :scale: 50 %
     
-Hostname and DNS Settings
+DNS configuration
 -------------------------
 
-.. image:: images/mcat/xen_console_022.png
-    :scale: 50 %
-    
 .. hint:: 
-    The hostname can be set at this stage in the process -or- by editing the file.
-    
+    The hostname can be set at this stage in the process -or- by directly editing ``/etc/sysconfig/network``.  *Changing the hostname **requires** the VM to be rebooted.**
+
+::
+
+    # /etc/sysconfig/network    
+    NETWORKING=yes
+    HOSTNAME=wx03.tmtj.invite-comm.jp  
+
+.. image:: images/mcat/xen_console_022.png
+    :scale: 50 %  
+
 .. image:: images/mcat/xen_console_023.png
     :scale: 50 %
     
