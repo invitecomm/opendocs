@@ -26,3 +26,4 @@ Contents:
 
    xen/create.rst
    xen/console.rst
+   xen/asterisk.rst
