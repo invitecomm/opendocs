@@ -11,7 +11,9 @@ First Boot
 Root Password
 =============
 
-When the newly created VM is booted for the first time, you'll be prompted to enter change the ``root`` password.  
+When the newly created VM is booted for the first time, you'll be prompted to enter change the ``root`` password.
+
+* 該当のサーバをつかまえて、コンソールをみる
 
 .. important:: 
     Use the standard INVITE password for the root account.
