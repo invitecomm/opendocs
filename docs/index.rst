@@ -1,8 +1,19 @@
-.. toctree::
-   :maxdepth: 2
-   :glob:
+######################
+| project |
+######################
 
-    xen/index
+.. contents::
+   :local:
+   :depth: 2
+
+*******
+Welcome
+*******
+
+.. toctree::
+	:titlesonly:
+
+	xen/index
    
 .. warning:: 
     The **primary audience** for this documentation are **Staff Members** of INVITE Communications.  
