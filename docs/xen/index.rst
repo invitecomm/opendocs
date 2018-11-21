@@ -6,6 +6,6 @@ System Provisioning
    :maxdepth: 2
    :glob:
 
-    xen/create
-    xen/console
-    xen/asterisk
+    create
+    console
+    asterisk
