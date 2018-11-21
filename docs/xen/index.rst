@@ -3,7 +3,9 @@ System Provisioning
 ###################
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :glob:
 
-    *
+    create
+    console
+    asterisk
