@@ -212,10 +212,10 @@ latex_elements = {
 
 }
 
-latex_engine = 'platex',
+#latex_engine = 'platex',
 #language = 'ja',
-#source_encoding = 'utf-8',
-#latex_use_xindy = True
+source_encoding = 'utf-8',
+latex_use_xindy = True
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
