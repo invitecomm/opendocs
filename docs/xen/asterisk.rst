@@ -27,6 +27,34 @@ Create a routing file in ``/etc/sysconfig/network-scripts`` for client facing in
     10.0.0.0/24 via 172.16.0.10
     
 
+.. tip::
+    This is the **best** point to run ``sys-unconfig`` and create the **clone** of the virtual machine.  Additional settings are *specific** the each virtual machine.
+    
+=============================    
+Prepare the Asterisk Template
+=============================
+
+Find a suitable template.
+-------------------------
+
+Find an MCAT configuration that performs a role similar to the new MCAT server.
+
+============ =================
+invttmtjtest Example Template
+invttmtjwx03 Sample Server
+invttmtjwx04 Sample Clone
+============ =================
+
+::
+
+    cd /home/mcat
+    svn cp invttmtjtest invttmtjwx03
+    svn commit -m "Base Config invttmtjwx03" invttmtjwx03
+    
+
+
+
+
 cd /home/mcat
 svn cp _ORI_ _NEW_
 svn commit -m "Base Config _NEW_" _NEW_
