@@ -70,12 +70,12 @@ Replace Symlink
     ln -s /home/mcat/invttmtjwx03/etc/asterisk asterisk
     ls -la /etc/ | grep ^l | grep asterisk
     
-    lrwxrwxrwx 1 root root 34 Jan 28  2016 asterisk -> /home/mcat/invttmtjwx03/etc/asterisk
+    asterisk -> /home/mcat/invttmtjwx03/etc/asterisk
 
 
 
 -------------------------
-Modify SIP Settings
+Modify the SIP Settings
 -------------------------
 
 ::
@@ -84,23 +84,21 @@ Modify SIP Settings
     [INVTTMTJWX03]
     username=INVTTMTJWX03
     host=192.168.32.26 ; Client Host IP
-    accountcode=INVTTMTJWX03-MCAT
+    accountcode=INVTTMTJWX03-MCAT ; From WX03 to MCAT
     [mcat](!)
-    accountcode=MCAT-INVTTMTJWX03
+    accountcode=MCAT-INVTTMTJWX03 ; MCAT to WX03
 
 
-vi sip.conf
---- [their host]
-username=this host 
-host=192.168.32.26 there ip
-accountcode=INVTTMTJSL02-MCAT
-[mcat](!)
-accountcode=MCAT-INVTTMTJSL02
----
-vi extensions.conf
----
-[INBOUND]
-exten => _X.,n,Dial(SIP/__SDIVGMOCL002__/${EXTEN})
----
+-------------------------
+Modify the Dial Plan
+-------------------------
+
+::
+
+    # /etc/asterisk/extensions.conf
+    [INBOUND]
+    exten => _X.,n,Dial(SIP/INVTTMTJWX03/${EXTEN})
+    
+
 
 
