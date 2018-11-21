@@ -13,7 +13,7 @@ Engineering Documentation
 
 .. toctree::
 	:includehidden:
-	:maxdepth: 3
+	:maxdepth: 2
 	:glob:
 
 	xen/index
