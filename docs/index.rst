@@ -11,6 +11,16 @@ Provisioning
    :depth: 2
 
     xen/index
+
+************
+Installation
+************
+.. toctree::
+	:includehidden:
+	:maxdepth: 2
+	:titlesonly:
+
+	xen/index
    
 .. warning:: 
     The **primary audience** for this documentation are **Staff Members** of INVITE Communications.  
