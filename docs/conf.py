@@ -200,8 +200,9 @@ latex_elements = {
 #'preamble': '',
 }
 
-#latex_engine='platex',
-latex_use_xindy = True
+latex_engine = 'platex',
+language = 'ja',
+#latex_use_xindy = True
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
