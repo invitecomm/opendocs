@@ -192,16 +192,16 @@ htmlhelp_basename = 'ReadtheDocsTemplatedoc'
 
 
 
-LATEX_PREAMBLE = r'''
-\usepackage{xeCJK}
-\setCJKmainfont{MS Mincho}
-\setCJKsansfont{MS Gothic}
-'''
+#LATEX_PREAMBLE = r'''
+#\usepackage{xeCJK}
+#\setCJKmainfont{MS Mincho}
+#\setCJKsansfont{MS Gothic}
+#'''
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 'papersize': 'a4paper',
-'preamble': LATEX_PREAMBLE,
+#'preamble': LATEX_PREAMBLE,
 
 # The font size ('10pt', '11pt' or '12pt').
 'pointsize': '11pt',
@@ -212,7 +212,7 @@ latex_elements = {
 
 }
 
-latex_engine = 'xelatex',
+#latex_engine = 'xelatex',
 #language = 'ja',
 #source_encoding = 'utf-8',
 #latex_use_xindy = True
