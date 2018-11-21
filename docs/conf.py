@@ -189,24 +189,44 @@ htmlhelp_basename = 'ReadtheDocsTemplatedoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
-latex_elements = {
+#latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
-'papersize': 'a4paper',
+#'papersize': 'a4paper',
 
 # The font size ('10pt', '11pt' or '12pt').
 #'pointsize': '11pt',
 
 # Additional stuff for the LaTeX preamble.
 #'preamble': '',
-'fontpkg': r'''
-\setmainfont{DejaVu Serif}
-\setsansfont{DejaVu Sans}
-\setmonofont{DejaVu Sans Mono}
-''',
+#'fontpkg': r'''
+#\setmainfont{DejaVu Serif}
+#\setsansfont{DejaVu Sans}
+#\setmonofont{DejaVu Sans Mono}
+#''',
 
+#}
+
+latex_engine = 'xelatex'
+latex_elements = {
+'papersize': 'a4paper',
+'fontenc': '\\usepackage{fontspec}',
+'fontpkg': '''\
+\\setmainfont{DejaVu Serif}
+\\setsansfont{DejaVu Sans}
+\\setmonofont{DejaVu Sans Mono}''',
+'geometry': '\\usepackage[vmargin=2.5cm, hmargin=3cm]{geometry}',
+'preamble': '''\
+\\usepackage[titles]{tocloft}
+\\cftsetpnumwidth {1.25cm}\\cftsetrmarg{1.5cm}
+\\setlength{\\cftchapnumwidth}{0.75cm}
+\\setlength{\\cftsecindent}{\\cftchapnumwidth}
+\\setlength{\\cftsecnumwidth}{1.25cm}''',
+'fncychap': '\\usepackage[Bjornstrup]{fncychap}',
+'printindex': '\\footnotesize\\raggedright\\printindex',
 }
+latex_show_urls = 'footnote'
 
-latex_engine = 'lualatex',
+#latex_engine = 'xelatex',
 #language = 'ja',
 #source_encoding = 'utf-8',
 #latex_use_xindy = True
