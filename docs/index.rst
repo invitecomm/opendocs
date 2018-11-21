@@ -9,8 +9,8 @@ Provisioning
 .. contents::
    :local:
    :depth: 2
-   
-   xen/index
+      
+    - :doc:`xen/index`
    
 .. warning:: 
     The **primary audience** for this documentation are **Staff Members** of INVITE Communications.  
