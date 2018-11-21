@@ -145,7 +145,7 @@ if "%1" == "latex" (
 	goto end
 )
 
-if "%1" == "latexpdfja" (
+if "%1" == "latexpdf" (
 	%SPHINXBUILD% -b latex %ALLSPHINXOPTS% %BUILDDIR%/latex
 	cd %BUILDDIR%/latex
 	make all-pdf
@@ -155,7 +155,7 @@ if "%1" == "latexpdfja" (
 	goto end
 )
 
-if "%1" == "latexpdf" (
+if "%1" == "latexpdfja" (
 	%SPHINXBUILD% -b latex %ALLSPHINXOPTS% %BUILDDIR%/latex
 	cd %BUILDDIR%/latex
 	make all-pdf-ja
