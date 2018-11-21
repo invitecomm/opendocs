@@ -2,7 +2,7 @@
    :maxdepth: 2
    :glob:
 
-    *
+    xen/index
    
 .. warning:: 
     The **primary audience** for this documentation are **Staff Members** of INVITE Communications.  
