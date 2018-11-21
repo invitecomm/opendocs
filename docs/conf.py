@@ -199,8 +199,7 @@ latex_elements = {
 # Additional stuff for the LaTeX preamble.
 #'preamble': '',
 }
-
-latex_engine=platex,
+latex_engine='platex',
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
