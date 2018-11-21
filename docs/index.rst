@@ -2,17 +2,15 @@
 Engineering Documentation
 ##########################
 
-.. contents::
-   :local:
-   :depth: 2
-
 ************
 Provisioning
 ************
 
-- :doc:`xen/create`
-- :doc:`xen/console`
-- :doc:`xen/asterisk`
+.. contents::
+   :local:
+   :depth: 2
+   
+   xen/index
    
 .. warning:: 
     The **primary audience** for this documentation are **Staff Members** of INVITE Communications.  
