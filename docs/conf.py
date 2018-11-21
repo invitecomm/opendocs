@@ -29,7 +29,8 @@ from datetime import date
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = []
+#extensions = []
+extensions = ['sphinxcontrib.cjk']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -189,9 +190,18 @@ htmlhelp_basename = 'ReadtheDocsTemplatedoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
+
+
+LATEX_PREAMBLE = r'''
+\usepackage{xeCJK}
+\setCJKmainfont{MS Mincho}
+\setCJKsansfont{MS Gothic}
+'''
+
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 'papersize': 'a4paper',
+'preamble': LATEX_PREAMBLE,
 
 # The font size ('10pt', '11pt' or '12pt').
 'pointsize': '11pt',
