@@ -204,7 +204,7 @@ latex_elements = {
 #'preamble': LATEX_PREAMBLE,
 
 # The font size ('10pt', '11pt' or '12pt').
-'pointsize': '11pt',
+#'pointsize': '11pt',
 
 # Additional stuff for the LaTeX preamble.
 #'preamble': '',
@@ -214,8 +214,8 @@ latex_elements = {
 
 #latex_engine = 'platex',
 #language = 'ja',
-source_encoding = 'utf-8',
-latex_use_xindy = True
+#source_encoding = 'utf-8',
+#latex_use_xindy = True
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
