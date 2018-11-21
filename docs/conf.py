@@ -196,11 +196,11 @@ latex_elements = {
 # The font size ('10pt', '11pt' or '12pt').
 #'pointsize': '11pt',
 
-latex_engine=platex
-
 # Additional stuff for the LaTeX preamble.
 #'preamble': '',
 }
+
+latex_engine=platex,
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
