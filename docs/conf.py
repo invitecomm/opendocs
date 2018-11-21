@@ -200,7 +200,7 @@ latex_elements = {
 #'preamble': '',
 }
 
-latex_engine = 'xelatex',
+latex_engine = 'lualatex',
 #language = 'ja',
 #source_encoding = 'utf-8',
 #latex_use_xindy = True
