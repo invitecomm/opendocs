@@ -14,12 +14,6 @@
     *But you may find some pieces of the puzzle missing.*
     Don't expect to find **private data** here.
 
-
-Documentation
-==================================================
-
-Contents:
-
 .. toctree::
    :maxdepth: 2
    :glob:
