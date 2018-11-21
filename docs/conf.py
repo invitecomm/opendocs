@@ -200,9 +200,9 @@ latex_elements = {
 #'preamble': '',
 }
 
-latex_engine = 'platex',
-language = 'ja',
-source_encoding = 'utf-8',
+latex_engine = 'xelatex',
+#language = 'ja',
+#source_encoding = 'utf-8',
 #latex_use_xindy = True
 
 # Grouping the document tree into LaTeX files. List of tuples
