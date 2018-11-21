@@ -2,9 +2,7 @@
    :maxdepth: 2
    :glob:
 
-   xen/create.rst
-   xen/console.rst
-   xen/asterisk.rst
+    *
    
 .. warning:: 
     The **primary audience** for this documentation are **Staff Members** of INVITE Communications.  
