@@ -1,19 +1,18 @@
-######################
-| project |
-######################
+##########################
+Engineering Documentation
+##########################
 
 .. contents::
    :local:
    :depth: 2
 
-*******
-Welcome
-*******
+************
+Provisioning
+************
 
-.. toctree::
-	:titlesonly:
-
-	xen/index
+- :doc:`xen/create`
+- :doc:`xen/console`
+- :doc:`xen/asterisk`
    
 .. warning:: 
     The **primary audience** for this documentation are **Staff Members** of INVITE Communications.  

@@ -6,6 +6,4 @@ System Provisioning
    :maxdepth: 2
    :glob:
 
-    create
-    console
-    asterisk
+    *
