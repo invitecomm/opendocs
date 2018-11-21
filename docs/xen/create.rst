@@ -1,9 +1,10 @@
-----------
- XenServer
-----------
+##########
+XenServer
+##########
 
+****************************
 Creating MCAT Virtual Server
-============================
+****************************
 
 .. image:: ../images/mcat/xenserver_001.png
     :scale: 50 %

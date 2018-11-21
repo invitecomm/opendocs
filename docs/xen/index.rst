@@ -1,25 +1,10 @@
 #########################
-Installation Instructions
-#########################
-
-this that and more
-
-
-.. toctree::
-	:hidden:
-	:titlesonly:
-
-	create
-	console
-	asterisk
-
-#########################
-More Instructions
+Provisioning 
 #########################
 
 .. toctree::
-   :maxdepth: 2
-   :glob:
+    :maxdepth: 2
+    :titlesonly:
 
     create
     console

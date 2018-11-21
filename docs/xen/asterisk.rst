@@ -1,9 +1,10 @@
---------------------
+####################
 Preparing the System
---------------------
+####################
 
+********
 Hostname
-========
+********
 
 If the hostname was not set during **First Boot** you can modify ``/etc/sysconfig/network``.
 
@@ -13,8 +14,9 @@ If the hostname was not set during **First Boot** you can modify ``/etc/sysconfi
     NETWORKING=yes
     HOSTNAME=invttmtjwx03.tmtj.invite-comm.jp
 
+**************
 Client Routing
-==============
+**************
 
 Create a routing file in ``/etc/sysconfig/network-scripts`` for client facing interfaces.  For example ``eth2`` would use ``/etc/sysconfig/network-scripts/route-eth2`` to route to the client network.
 

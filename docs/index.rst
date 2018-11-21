@@ -2,25 +2,9 @@
 Engineering Documentation
 ##########################
 
-.. contents::
-   :local:
-   :depth: 2
-
-************
-Provisioning
-************
-
-.. toctree::
-	:titlesonly:
-
-    xen/index
-
-************
-Installation
-************
 .. toctree::
 	:includehidden:
-	:maxdepth: 2
+	:maxdepth: 3
 	:titlesonly:
 
 	xen/index

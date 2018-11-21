@@ -1,9 +1,10 @@
-----------
+##########
 First Boot
-----------
+##########
 
+***************
 Virtual Console
-===============
+***************
 
 #. Find the *newly created* virtual machine in XenCenter ``Resource Pane``.
 #. Select the *newly created* virtual machine to see the ``Properties tabs``. 
@@ -12,8 +13,9 @@ Virtual Console
 .. image:: ../images/mcat/xen_console_001.png
     :scale: 25 %
 
+***************
 Root Password
-=============
+***************
 
 When the newly created VM is booted for the first time, you'll be prompted to change the ``root`` password.
 
