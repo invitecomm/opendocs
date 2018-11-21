@@ -212,7 +212,7 @@ latex_elements = {
 
 }
 
-#latex_engine = 'xelatex',
+latex_engine = 'platex',
 #language = 'ja',
 #source_encoding = 'utf-8',
 #latex_use_xindy = True
