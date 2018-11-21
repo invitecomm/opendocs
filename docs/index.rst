@@ -2,13 +2,16 @@
 Engineering Documentation
 ##########################
 
+.. contents::
+   :local:
+   :depth: 2
+
 ************
 Provisioning
 ************
 
-.. contents::
-   :local:
-   :depth: 2
+.. toctree::
+	:titlesonly:
 
     xen/index
 
