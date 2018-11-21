@@ -4,23 +4,10 @@ Engineering Documentation
 
 .. toctree::
 	:includehidden:
-	:maxdepth: 4
+	:maxdepth: 2
 	:glob:
 
 	xen/index
-	
-***************
-Altername Items
-***************
-
-.. toctree::
-	:includehidden:
-	:maxdepth: 2
-	:titlesonly:
-	
-	xen/create
-	xen/console
-	xen/asterisk
    
 .. warning:: 
     The **primary audience** for this documentation are **Staff Members** of INVITE Communications.  

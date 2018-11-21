@@ -29,9 +29,10 @@ Create a routing file in ``/etc/sysconfig/network-scripts`` for client facing in
 
 .. tip::
     This is the **best** point to run ``sys-unconfig`` and create the **clone** of the virtual machine.  Additional settings are *specific** the each virtual machine.
-    
+
+******************************
 Prepare the Asterisk Template
-=============================
+******************************
 
 Find a suitable template.
 -------------------------

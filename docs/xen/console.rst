@@ -33,8 +33,9 @@ When the newly created VM is booted for the first time, you'll be prompted to ch
 .. image:: ../images/mcat/xen_console_004.png
     :scale: 50 %
 
+****************************
 Device Configuration
-====================
+****************************
 
 ====== =========== ============= === ==================
 Subnet Network     Network Mask  Bit Purpose
@@ -141,8 +142,9 @@ The ``Name`` and ``Device`` **should** increment from the last configured interf
 .. image:: ../images/mcat/xen_console_021.png
     :scale: 50 %
     
+****************************
 DNS configuration
-=================
+****************************
 
 The hostname *may* be the long INVITE CLLI styled ID or the short version.
 ::
@@ -196,8 +198,9 @@ Field                Setting
 .. image:: ../images/mcat/xen_console_027.png
     :scale: 50 %
 
+****************************
 Authentication Configuration
-============================
+****************************
 
 The first boot process with *prompt* for ``Authentication Configuration`` settings.  *This may be skipped.*
 
