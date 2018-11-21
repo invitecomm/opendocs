@@ -34,10 +34,11 @@ Create a routing file in ``/etc/sysconfig/network-scripts`` for client facing in
 Prepare the Asterisk Template
 ******************************
 
+-------------------------
 Find a suitable template.
 -------------------------
 
-Find an MCAT configuration that performs a role similar to the new MCAT server.
+Find an MCAT configuration that performs a role similar to the new MCAT server.  We'll use ``invttmtjtest`` in the table below, to create ``invttmtjwx03`` and ``invttmtjwx04``.
 
 ============ =================
 invttmtjtest Example Template
@@ -51,16 +52,42 @@ invttmtjwx04 Sample Clone
     svn cp invttmtjtest invttmtjwx03
     svn commit -m "Base Config invttmtjwx03" invttmtjwx03
     
+.. tip::
+    Create the clone **after** making *basic* modifications to the ``asterisk`` configuration.
+    
+::
+
+    svn cp invttmtjwx03 invttmtjwx04
+    svn commit -m "Base Config invttmtjwx04" invttmtjwx04
+
+-------------------------
+Replace Symlink
+-------------------------
+
+::
+
+    rm /etc/asterisk
+    ln -s /home/mcat/invttmtjwx03/etc/asterisk asterisk
+    ls -la /etc/ | grep ^l | grep asterisk
+    
+    lrwxrwxrwx 1 root root 34 Jan 28  2016 asterisk -> /home/mcat/invttmtjwx03/etc/asterisk
 
 
 
+-------------------------
+Modify SIP Settings
+-------------------------
 
-cd /home/mcat
-svn cp _ORI_ _NEW_
-svn commit -m "Base Config _NEW_" _NEW_
-cd /etc
-rm asterisk
-ln -s /home/mcat/d863906085/etc/asterisk asterisk
+::
+
+    # /etc/asterisk/sip.conf
+    [INVTTMTJWX03]
+    username=INVTTMTJWX03
+    host=192.168.32.26 ; Client Host IP
+    accountcode=INVTTMTJWX03-MCAT
+    [mcat](!)
+    accountcode=MCAT-INVTTMTJWX03
+
 
 vi sip.conf
 --- [their host]
