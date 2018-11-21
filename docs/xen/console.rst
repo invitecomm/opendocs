@@ -1,8 +1,7 @@
-##########
+----------
 First Boot
-##########
+----------
 
-===============  
 Virtual Console
 ===============
 
@@ -13,7 +12,6 @@ Virtual Console
 .. image:: ../images/mcat/xen_console_001.png
     :scale: 25 %
 
-=============    
 Root Password
 =============
 
@@ -33,7 +31,6 @@ When the newly created VM is booted for the first time, you'll be prompted to ch
 .. image:: ../images/mcat/xen_console_004.png
     :scale: 50 %
 
-====================
 Device Configuration
 ====================
 
@@ -142,7 +139,6 @@ The ``Name`` and ``Device`` **should** increment from the last configured interf
 .. image:: ../images/mcat/xen_console_021.png
     :scale: 50 %
     
-=================
 DNS configuration
 =================
 
@@ -198,7 +194,6 @@ Field                Setting
 .. image:: ../images/mcat/xen_console_027.png
     :scale: 50 %
 
-============================
 Authentication Configuration
 ============================
 
