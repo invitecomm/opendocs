@@ -5,7 +5,7 @@ Engineering Documentation
 .. toctree::
 	:includehidden:
 	:maxdepth: 4
-	:titlesonly:
+	:glob:
 
 	xen/index
 	
