@@ -198,15 +198,11 @@ latex_elements = {
 
 # Additional stuff for the LaTeX preamble.
 #'preamble': '',
-'fontpkg': r'''
-\setmainfont{DejaVu Serif}
-\setsansfont{DejaVu Sans}
-\setmonofont{DejaVu Sans Mono}
-''',
+
 
 }
 
-#latex_engine = 'xelatex',
+latex_engine = 'xelatex',
 #language = 'ja',
 #source_encoding = 'utf-8',
 #latex_use_xindy = True
