@@ -9,13 +9,6 @@ Engineering Documentation
 
 	xen/index
 
-.. toctree::
-	:includehidden:
-	:maxdepth: 3
-	:glob:
-	
-	stub/index
-
 .. warning:: 
     The **primary audience** for this documentation are **Staff Members** of INVITE Communications.  
     You are **welcome** to view the materials found here, and hope you find these materials useful.
